@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paytm</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            screen:{
+                sm:'480px',
+                md:'900px',
+                lg:'1000px',
+            },
+            extend: {
+              colors: {
+                lightblue: '#00BAF2',
+                darkblue: '#002970',
+                lightgrey:'#F5F5F5',
+              }
+            }
+          }
+        }
+    </script>
+</head>
+<body>
+    <!-- nav -->
+    <nav>
+        <div class="flex justify-between items-center py-3 mx-12">
+            <div>
+                <img draggable="false" src="./css/photos/paytm_logo.png" alt="logo" class="w-48">
+            </div>
+            <div class="md:">
+                <ul class="flex gap-x-10">
+                    <li class="font-semibold text-[18px]">Paytm for Consumer</li>
+                    <li class="font-semibold text-[18px]">Paytm for Bussiness</li>
+                    <li class="font-semibold text-[18px]">Company</li>
+                    <li class="font-semibold text-[18px]">Investor Relation</li>
+                    <li class="font-semibold text-[18px]">Career</li>
+                </ul>
+            </div>
+            <div>
+                <a class="bg-lightblue w hover:bg-darkblue px-16 py-2 rounded-3xl" href="#"><span class="text-white absolute right-24">Sign In</span>
+                <img class="absolute right-12 top-6 " src="./css/photos/Sign in.svg" alt="image">
+                </a>
+            </div>
+        </div>
+        <div class="bg-lightgrey py-2 text-center">
+            <p class="font-semibold">No Wallet KYC Required 😊 <span class="font-normal">to pay using UPI on paytm.</span>Learn more.</p>   
+        </div>
+    </nav>
+    <section>
+        <!-- container1 -->
+        <div class="flex-wrap justify-between my-20 sm:flex ">
+            <div class="ml-[40px] md:ml-36" >
+                <div>
+                    <img class="md:h-20 sm:mt-[60px] mt-[-60px] h-10" draggable="false" src="./css/photos/container 1-left.png" alt="image">
+                </div>
+                <div class="md:mt-[40px] mt-[10px] ">
+                    <h1 class="md:text-6xl text-[30px] font-bold">India's Most-Loved <br> Payments App</h1>
+                    <p class="md:my-12 my-2 md:text-lg font-medium">Recharge & pay bills,book Flight & movie tickets, <br>open a saving account, invest in stocks & mutual <br> funds, and do a lot more.</p>
+                    <a class="bg-black text-white text-[12px] md:text-[18px] px-[12px] md:px-10 py-2 rounded-3xl relative top-[20px]" draggable="false" href="#">Download Paytm App</a>
+                </div>
+                
+            </div>
+            <div class=" flex sm:justify-end mt-[40px] ">
+                <img class="md:w-[550px] w-[400px]" draggable="false" src="./css/photos/container1-right.webp" alt="image">
+            </div>
+        </div>
+        <!-- container2 -->
+        <div class=" bg-lightblue h-[1450px]  md:h-[350px]">
+            <div>
+                <h2 class="sm:text-[35px] text-[25px] font-bold mx-[100px] text-white relative top-[40px]">Recharge& Pay Bills on Paytm.</h2>
+            </div>
+            <div class=" flex-row md:flex justify-around mx-[100px] relative top-[80px]">
+                <a href="#">
+                    <div class="hover:bg-[#00afe3]  p-[20px] pr-[50px] rounded-xl">
+                        <img draggable="false" class="w-[60px]" src="./css/photos/container2-1.png" alt="image">
+                        <p class="text-white mt-[10px] font-bold">Recharge <br>Prepaid <br>Mobile
+                            <span
+                            style="
+                              margin-left: 1px;
+                              padding: 3px;
+                              border: solid #fff;
+                              border-width: 0 2px 2px 0;
+                              display: inline-block;
+                              transition: all 0.3s ease;
+                              -webkit-transform: rotate(-45deg);
+                              transform: rotate(-45deg);
+                            "
+                          ></span>
+                        </p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="hover:bg-[#00afe3] p-[20px] pr-[50px] rounded-xl">
+                        <img draggable="false" class="w-[60px]" src="./css/photos/container2-2.png" alt="image">
+                        <p class="text-white mt-[10px] font-bold">Pay<br>Rent<br>Payment
+                        <span
+                        style="
+                         margin-left:1px;
+                         padding: 3px;
+                         border: solid #fff ;
+                         display: inline-block;
+                         border-width: 0 2px 2px 0;
+                         transition: all 0.3s ease;
+                         -webkit-transform: rotate(-45deg);
+                         transform: rotate(-45deg);
+                        "
+                        ></span>
+                        </p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="hover:bg-[#00afe3] p-[20px] pr-[50px] rounded-xl">
+                        <img draggable="false" class="w-[60px]" src="./css/photos/container2-3.png" alt="image">
+                        <p class="text-white mt-[10px] font-bold">Pay<br>Electricity<br>Bill
+                            <span
+                            style="
+                             margin-left:1px;
+                             padding: 3px;
+                             border: solid #fff ;
+                             display: inline-block;
+                             border-width: 0 2px 2px 0;
+                             transition: all 0.3s ease;
+                             -webkit-transform: rotate(-45deg);
+                             transform: rotate(-45deg);
+                            "
+                            ></span>
+                        </p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="hover:bg-[#00afe3] p-[20px] pr-[50px] rounded-xl">
+                        <img draggable="false" class="w-[60px]" src="./css/photos/container2-4.png" alt="image">
+                        <p class="text-white mt-[10px] font-bold">Recharge<br>DTH<br>connection
+                        <span
+                        style="
+                         margin-left:1px;
+                         padding: 3px;
+                         border: solid #fff ;
+                         display: inline-block;
+                         border-width: 0 2px 2px 0;
+                         transition: all 0.3s ease;
+                         -webkit-transform: rotate(-45deg);
+                         transform: rotate(-45deg);
+                        "
+                        ></span>
+                        </p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="hover:bg-[#00afe3] p-[20px] pr-[50px] rounded-xl">
+                        <img draggable="false" class="w-[60px]" src="./css/photos/container2-5.png" alt="image">
+                        <p class="text-white mt-[10px] font-bold">Book<br>Gas<br>Cylinder
+                        <span
+                        style="
+                         margin-left:1px;
+                         padding: 3px;
+                         border: solid #fff ;
+                         display: inline-block;
+                         border-width: 0 2px 2px 0;
+                         transition: all 0.3s ease;
+                         -webkit-transform: rotate(-45deg);
+                         transform: rotate(-45deg);
+                        "
+                        ></span>
+                        </p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="hover:bg-[#00afe3] p-[20px] pr-[50px] rounded-xl">
+                        <img draggable="false" class="w-[60px]" src="./css/photos/container2-6.png" alt="image">
+                        <p class="text-white mt-[10px] font-bold">Pay<br>credit<br>Card Bill
+                        <span
+                        style="
+                         margin-left:1px;
+                         padding: 3px;
+                         border: solid #fff ;
+                         display: inline-block;
+                         border-width: 0 2px 2px 0;
+                         transition: all 0.3s ease;
+                         -webkit-transform: rotate(-45deg);
+                         transform: rotate(-45deg);
+                        "
+                        ></span>
+                        </p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="hover:bg-[#00afe3] p-[20px] pr-[50px] rounded-xl">
+                        <img draggable="false" class="w-[60px]" src="./css/photos/container2-7.png" alt="image">
+                        <p class="text-white mt-[10px] font-bold">All <br>Payment <br>Services
+                        <span
+                        style="
+                         margin-left:1px;
+                         padding: 3px;
+                         border: solid #fff ;
+                         display: inline-block;
+                         border-width: 0 2px 2px 0;
+                         transition: all 0.3s ease;
+                         -webkit-transform: rotate(-45deg);
+                         transform: rotate(-45deg);
+                        "
+                        ></span>
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- container3 -->
+        <div class="bg-[#0F4A8A] text-white h-[1250px]  md:h-[350px] ">
+            <div class="">
+                <h2 class="sm:text-[35px] text-[25px] font-bold mx-[100px] relative top-[60px]">Book & Buy on Paytm.</h2>
+            </div>
+            <div class="flex-row md:flex justify-around mx-[100px] relative top-[100px]">
+                <div  class="hover:bg-[#0D3E80] p-[20px] pr-[50px] rounded-xl">
+                    <img draggable="false" class="w-[60px]" src="./css/photos/container3-1.png" alt="image">
+                    <p class="text-white mt-[10px] font-bold">Movie <br>Tickets
+                        <span
+                        style="
+                         margin-left:1px;
+                         padding: 3px;
+                         border: solid #fff ;
+                         display: inline-block;
+                         border-width: 0 2px 2px 0;
+                         transition: all 0.3s ease;
+                         -webkit-transform: rotate(-45deg);
+                         transform: rotate(-45deg);
+                        "
+                        ></span>
+                    </p>
+                </div>
+                <div class="hover:bg-[#0D3E80] p-[20px] pr-[50px] rounded-xl">
+                    <img draggable="false" class="w-[60px]" src="./css/photos/container3-2.png" alt="image">
+                    <p class="text-white mt-[10px] font-bold">Flight <br>Tickets
+                    <span
+                        style="
+                         margin-left:1px;
+                         padding: 3px;
+                         border: solid #fff ;
+                         display: inline-block;
+                         border-width: 0 2px 2px 0;
+                         transition: all 0.3s ease;
+                         -webkit-transform: rotate(-45deg);
+                         transform: rotate(-45deg);
+                        "
+                        ></span>
+                    </p>
+                </div>
+                <div class="hover:bg-[#0D3E80] p-[20px] pr-[50px] rounded-xl">
+                    <img draggable="false" class="w-[60px]" src="./css/photos/container3-3.png" alt="image">
+                    <p class="text-white mt-[10px] font-bold">Bus <br>Tickets
+                    <span
+                        style="
+                         margin-left:1px;
+                         padding: 3px;
+                         border: solid #fff ;
+                         display: inline-block;
+                         border-width: 0 2px 2px 0;
+                         transition: all 0.3s ease;
+                         -webkit-transform: rotate(-45deg);
+                         transform: rotate(-45deg);
+                        "
+                        ></span>
+                    </p>
+                </div>
+                <div class="hover:bg-[#0D3E80] p-[20px] pr-[50px] rounded-xl">
+                    <img draggable="false" class="w-[60px]" src="./css/photos/container3-4.png" alt="image">
+                    <p class="text-white mt-[10px] font-bold">Train <br>Tickets
+                    <span
+                        style="
+                         margin-left:1px;
+                         padding: 3px;
+                         border: solid #fff ;
+                         display: inline-block;
+                         border-width: 0 2px 2px 0;
+                         transition: all 0.3s ease;
+                         -webkit-transform: rotate(-45deg);
+                         transform: rotate(-45deg);
+                        "
+                        ></span>
+                    </p>
+                </div>
+                <div class="hover:bg-[#0D3E80] p-[20px] pr-[50px] rounded-xl">
+                    <img draggable="false" class="w-[60px]" src="./css/photos/container3-5.png" alt="image">
+                    <p class="text-white mt-[10px] font-bold">Car & Bike
+                    <span
+                        style="
+                         margin-left:1px;
+                         padding: 3px;
+                         border: solid #fff ;
+                         display: inline-block;
+                         border-width: 0 2px 2px 0;
+                         transition: all 0.3s ease;
+                         -webkit-transform: rotate(-45deg);
+                         transform: rotate(-45deg);
+                        "
+                        ></span>
+
+                    </p>
+                </div>
+                <div class="hover:bg-[#0D3E80] p-[20px] pr-[50px] rounded-xl">
+                    <img draggable="false" class="w-[60px]" src="./css/photos/container3-6.png" alt="image">
+                    <p class="text-white mt-[10px] font-bold">International <br>Flights
+                    <span
+                        style="
+                         margin-left:1px;
+                         padding: 3px;
+                         border: solid #fff ;
+                         display: inline-block;
+                         border-width: 0 2px 2px 0;
+                         transition: all 0.3s ease;
+                         -webkit-transform: rotate(-45deg);
+                         transform: rotate(-45deg);
+                        "
+                        ></span>
+                    </p>
+                </div>
+                <div class="hover:bg-[#0D3E80] p-[20px] pr-[50px] rounded-xl">
+                    <img draggable="false" class="w-[60px]" src="./css/photos/container3-7.webp" alt="image">
+                    <p class="text-white mt-[10px] font-bold">Invest <br>in Stocks
+                    <span
+                        style="
+                         margin-left:1px;
+                         padding: 3px;
+                         border: solid #fff ;
+                         display: inline-block;
+                         border-width: 0 2px 2px 0;
+                         transition: all 0.3s ease;
+                         -webkit-transform: rotate(-45deg);
+                         transform: rotate(-45deg);
+                        "
+                        ></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- container4 -->
+        <div class="bg-[#F5F7FA] h-[740px]">
+            <h1 class="text-[35px] md:text-[50px] font-bold mx-[40px] sm:mx-[150px] relative top-[100px]">Paytm Payment Instruments</h1>
+            <div class="h-[600px]  container mx-auto w-[80%] bg-[#ffffff] relative top-[130px] flex-row md:flex justify-around rounded-2xl ">
+                <div class="my-[40px] ml-[10px] mt-[10px]">
+                    <img draggable="false" class="w-[50px] md:w-[80px]" src="./css/photos/container4-left.png" alt="image">
+                    <h4 class="my-[10px] md:my-[30px] text-[24px] md:text-[35px] font-bold">The Fastest Way to <br>Pay In-store & Online.</h4>
+                    <p class="my-[10px] text-[15px] md:text-[17px] font-semibold ">Load up your Paytm Wallet for free and make Payments <br>in a jiffy at over 21 million stores, websites and apps.</p>
+                    <a class="bg-black text-white text-[12px] md:text-[18px] px-[12px] md:px-10 py-2 rounded-3xl relative top-[20px]" href="#">Download the App</a>
+                </div>
+                <div class="flex  mt-[40px]">
+                    <img class="h-[300px] md:h-[500px]" draggable="false" src="./css/photos/container4-right.webp" alt="image">
+                </div>
+            </div>
+        </div>
+        <!-- container5 -->
+        <div class="bg-[#F5F7FA] h-[730px] md:h-[670px]">
+            <div class="h-[670px] md:h-[600px] container mx-auto w-[80%] bg-[#ffffff] relative top-[130px] flex-row md:flex justify-around rounded-2xl ">
+                <div class="my-[60px]  ml-[10px] mt-[10px] ">
+                    <img class="w-[50px] md:w-[80px]" draggable="false" src="./css/photos/container5-left.png" alt="image">
+                    <h4 class="my-[10px] md:my-[30px] text-[24px] md:text-[35px] font-bold">Pay anyone directly <br>from your bank <br>account.</h4>
+                    <p class="my-[10px] text-[15px] md:text-[17px] font-semibold ">
+                    Pay anyone, everywhere. Make contactless & secure <br>
+                    payments in-store oronline using Paytm Wallet or <br>
+                    Directly from your Bank Account. Plus, send & receive <br>
+                    money from anyone.
+                    </p>
+                    <a class="bg-black text-white text-[12px] md:text-[18px] px-[12px] md:px-10 py-2 rounded-3xl relative top-[20px]" href="#">Download the App</a>    
+                </div>
+                <div class="flex  mt-[40px] ">
+                    <img class="h-[300px] md:h-[500px]" draggable="false" src="./css/photos/container5-right.webp" alt="image">
+                </div> 
+            </div>
+        </div>
+        <!-- container6 -->
+        <div class="bg-[#F5F7FA] h-[780px]">
+            <div class="h-[600px] container mx-auto w-[80%] bg-[#ffffff] relative top-[130px] flex-row md:flex justify-around rounded-2xl ">
+                <div class="my-[60px] ml-[10px] mt-[10px]">
+                    <img  class="w-[100px] md:w-[170px]" draggable="false" src="./css/photos/container6-left.webp" alt="image">
+                    <h4 class="my-[10px] md:my-[30px] text-[24px] md:text-[35px] font-bold">Want it? <br>NO more waiting for it.</h4>
+                    <p class="my-[10px] text-[15px] md:text-[17px] font-semibold ">
+                        With Paytm Postpaid, your wishlist doesn't have to be <br>
+                        on the waitlist. Shop for the things you want today and <br>
+                        pay for them next month.
+                    </p>
+                    <a class="bg-darkblue text-white font-semibold text-[12px] md:text-[18px] px-[12px] md:px-10 py-3 rounded-3xl relative top-[40px]" href="#">Learn More
+                        <span
+                        style="
+                         margin-left:1px;
+                         padding: 3px;
+                         border: solid #fff ;
+                         display: inline-block;
+                         border-width: 0 2px 2px 0;
+                         transition: all 0.3s ease;
+                         -webkit-transform: rotate(-45deg);
+                         transform: rotate(-45deg);
+                        "
+                        ></span>
+                    </a>    
+                </div>
+                <div class="flex  mt-[40px] ">
+                    <img class="h-[300px] md:h-[500px]" draggable="false" src="./css/photos/container6-right.webp" alt="image">
+                </div>
+            </div>
+        </div>
+        <!-- container7 -->
+        <div class="bg-[#F5F7FA] h-[1150px] md:h-[700px] flex-row md:flex justify-center gap-x-[50px] ">
+            <div class=" bg-[#ffffff] h-[500] md:h-[630px] px-[70px] rounded-2xl">
+                <a href="#">
+                    <img class="w-[150px] md:w-[200px]" src="./css/photos/container7-left-top.png" alt="image">
+                    <h4 class="text-[24px] md:text-[35px] font-bold mt-[10px] md:mt-10">Unlimited Cashback <br> Every time</h4>
+                    <p class="font-semibold text-[15px] md:text-[17px] mt-4">Paytm HDFC Bank Select Credit. A card <br>with assured Cashback and incredible offers.</p>
+                    <img class="h-[300px] mt-[30px]" draggable="false" src="./css/photos/container7-left.webp" alt="image">
+                </a>
+            </div>
+            <div class=" bg-[#ffffff] h-[500] md:h-[630px] px-[70px] rounded-2xl">
+                <a href="#">
+                    <img class="w-[200px] mt-[60px]" src="./css/photos/container7-right-top.png" alt="image">
+                    <h4 class="text-[24px] md:text-[35px] font-bold mt-[10px] md:mt-10">India's Most <br>Sincere Credit Card</h4>
+                    <p class="font-semibold text-[15px] md:text-[17px] mt-4"> Paytm SBI Card SELECT-Wiyh Intelligent <br>FEature & Great Rewards that Never Expire.</p>
+                    <img  class="h-[300px] mt-[30px]" draggable="false" src="./css/photos/container7-right.webp" alt="image">
+                </a>
+            </div>
+        </div>
+        <!-- container8 -->
+        <div class="flex-row md:flex justify-around h-[800px] md:h-[700px]">
+            <div class="ml-[20px]">
+                <h2 class="text-[24px] md:text-[35px] font-bold mt-[60px]">Financial Services by Paytm</h2>
+                <img class="w-[150px] md:w-[200px] mt-[30px]" draggable="false" src="./css/photos/container8-left.png" alt="image">
+                <h4 class="text-[24px] md:text-[35px] font-bold mt-[30px]">India's most sincere <br> bank.</h4>
+                <p class="text-[15px] md:text-[17px] font-semibold mt-[30px]">Paytm Payments Bank offers secure, transparent and <br>
+                    risk-free banking at your fingertips. With instant <br>
+                    account opening, virtual debit card and zero balance <br>
+                    requirements, experience the future of banking today.</p>
+                <a class="relative top-[40px] bg-darkblue text-white font-semibold text-[12px] md:text-[18px] px-[12px] md:px-10 py-3 rounded-3xl" href="#">Learn More</a>
+            </div>
+            <div class="ml-[20px]">
+                <img draggable="false" class="h-[300px] md:h-[500px] mt-[100px]" src="./css/photos/container8-right.webp" alt="image">
+            </div>
+        </div>
+        <!-- container9 -->
+        <div class="bg-[#F5F7FA] lg:bg-[url(./img/container9)] h-[800px] lg:h-[600px]">
+            <div class="flex-row lg:flex mt-[90px] absolute left-[100px]">
+                <div>
+                    <img class="h-[280px] lg:h-[480px]" draggable="false" src="./css/photos/container9-left.webp" alt="image">
+                </div>
+                <div class="lg:mx-[200px] mt-[20px]">
+                    <img class="w-[150px]" draggable="false" src="./css/photos/container9-right.webp" alt="image">
+                    <h4 class="text-[24px] lg:text-[35px] font-bold mt-[20px]">Build Long-term <br> Wealth & Achieve <br> your Goals.</h4>
+                    <p class="text-[15px] lg:text-[17px] font-semibold mt-[20px]">
+                         Investing on Paytm Money is transparent, low-cost and <br>
+                         commission-free. Buy stocks & mutual funds that can <br>
+                         help you create wealth & realise your dreams.</p>
+                    <a class="relative top-[40px] bg-darkblue text-white font-semibold text-[12px] lg:text-[18px] px-[12px] lg:px-10 py-3 rounded-3xl" href="#">Learn More</a>     
+                </div>
+            </div>
+            <img class="static " draggable="false" src="./css/photos/container9.webp" alt="image">
+        </div>
+        <!-- container10 -->
+        <div class="flex-row md:flex justify-around h-[700px] ml-[20px]" >
+            <div class="mt-[100px]">
+                <img class="w-[100px] md:w-[170px]" draggable="false" src="./css/photos/container10-left.webp" alt="image">
+                <h4 class="my-[10px] md:my-[30px] text-[24px] md:text-[35px] font-bold mt-[40px]">Insurance made easy.</h4>
+                <p class="text-[15px] md:text-[17px] font-semibold mt-[30px]">
+                     Buying insurance does not have to be tedious, time- <br>
+                     consuming & confusing. Paytm Insurance removes the <br>
+                     worry of getting insured by making it simple, <br>
+                     convenient & easy-to-understand.</p>
+                <a class="relative top-[60px] bg-darkblue text-white font-semibold text-[12px] md:text-[18px] px-[18px] md:px-10 py-3 rounded-3xl" href="#">Learn More</a>     
+            </div>
+            <div class="mt-[100px]">
+                <img class="h-[280px] md:h-[480px]" draggable="false" src="./css/photos/container10-right.webp" alt="image">
+            </div>
+        </div>
+        <!-- container11 -->
+        <div class="bg-[#F5F7FA] flex-row md:flex justify-around h-[720px] md:h-[660px] ">
+            <div class="mt-[80px] ml-[20px]">
+                <img class="h-[280px] md:h-[480px]" draggable="false" src="./css/photos/container11-left.webp" alt="image">
+            </div>
+            <div class="mt-[80px] ml-[20px]">
+                <img class="w-[100px] md:w-[170px]" draggable="false" src="./css/photos/container11-right.png" alt="image">
+                <h4 class="text-[24px] md:text-[35px] font-bold mt-[20px] md:mt-[40px]">Get a Personal Loan in <br> 2 Minutes.</h4>
+                <p class="text-[15px] md:text-[17px] font-semibold mt-[20px] md:mt-[30px]">
+                     Paytm offers India's quickest multi-purpose, hassle-free loan.<br> It is 
+                     100% digital, transparent and paperless.</p>
+                <a class="relative top-[60px] bg-darkblue text-white font-semibold text-[12px] md:text-[18px] px-[18px] md:px-10 py-3 rounded-3xl" href="#">Learn More</a>     
+            </div>
+        </div>
+        <!-- container12 -->
+        <div >
+            <h2 class="text-[24px] md:text-[35px] font-bold my-[20px] md:my-[40px] ml-[140px]">Business Services by Paytm</h2>
+            <div class=" items-center h-[600px] container mx-auto w-[80%] rounded-xl bg-[#F5F7FA] flex-row md:flex justify-between h-[600px]">
+                <div class="ml-[80px]">
+                    <h4 class="text-[24px] md:text-[35px] font-bold  md:leading-[55px]">Accept payments <br> online with ease</h4>
+                    <p class="text-[15px] md:text-[17px] font-semibold mt-[10px] md:mt-[30px]">
+                     Grow your business with the payment gateway that <br>
+                     powers India’s largest brands and even the Paytm App</p>
+                    <a class="relative top-[20px] md:top-[60px] bg-darkblue text-white font-semibold text-[12px] md:text-[18px] px-[18px] md:px-10 py-3 rounded-3xl" href="#">Learn More</a> 
+                </div>
+                <div>
+                    <img class="h-[280px] md:h-[480px] mt-[100px] md:mt-[1px] ml-[20px]" draggable="false" src="./css/photos/container12.webp" alt="image">
+                </div>       
+            </div>
+        </div>
+        <!-- container13 -->
+        <div class="mt-[60px]">
+            <div class=" items-center h-[600px] container mx-auto w-[80%] rounded-xl bg-[#F5F7FA] flex-row md:flex justify-between h-[600px]">
+                <div class="ml-[80px]">
+                    <h4 class="text-[24px] md:text-[35px] font-bold  md:leading-[55px]">In-shop payments <br> powered by Paytm.</h4>
+                    <p class="text-[15px] md:text-[17px] font-semibold mt-[10px] md:mt-[30px]">
+                      Millions of small & big businesses use Paytm to accept <br>
+                      payments anywhere any time with a wide range of <br>
+                      solutions for all kind of merchants</p>
+                    <a class="relative top-[60px] bg-darkblue text-white font-semibold text-[12px] md:text-[18px] px-[18px] md:px-10 py-3 rounded-3xl" href="#">Learn More</a>
+                </div>
+                <div class="">
+                    <img class="h-[280px] md:h-[480px] mt-[100px] md:mt-[1px] ml-[20px]" draggable="false" src="./css/photos/container13.webp" alt="image">
+                </div> 
+            </div>
+        </div>
+        <!-- container14 -->
+        <div class="h-[1450px] md:h-[700px]">
+            <h2 class="text-[24px] md:text-[35px] font-bold md:leading-[50px] ml-[150px] mt-[100px]">Business Tools to help <br> your business grow</h2>
+            <div class="container mx-auto w-[85%] mt-[40px] flex-row md:flex justify-around">
+                <div class=" ml-[50px] md:ml-[1px]  mt-[10px] md:mt-[1px]">
+                    <img class="h-[150px] md:h-[250px]" draggable="false" src="./css/photos/container14-1.webp" alt="image">
+                    <h5 class="text-[18px] md:text-[25px] font-bold mt-[10px] md:mt-[20px] md:leading-[35px]">POS Billing <br>Software</h5>
+                    <p class="text-[14px] md:text-[20px] font-semibold mt-[10px] md:mt-[20px]">Say Hello to Smart Retail <br> Business Management</p>
+                    <a class="font-bold relative top-[10px] md:top-[20px]" href="#">Learn More</a>
+                </div>
+                <div class=" ml-[50px] md:ml-[1px] mt-[10px] md:mt-[1px]">
+                    <img class="h-[150px] md:h-[250px]" draggable="false" src="./css/photos/container14-2.webp" alt="image">
+                    <h5 class="text-[18px] md:text-[25px] font-bold mt-[20px] md:mt-[20px] md:leading-[35px]">Paytm for <br> Business App</h5>
+                    <p class="text-[14px] md:text-[20px] font-semibold  mt-[10px] md:mt-[20px]">Everything you need to <br> manage your business <br> on your phone</p>
+                    <a class="font-bold relative top-[10px] md:top-[20px]" href="#">Learn More</a>
+                </div>
+                <div class=" ml-[50px] md:ml-[1px] mt-[10px] md:mt-[1px]">
+                    <img class="h-[150px] md:h-[250px]" draggable="false" src="./css/photos/container14-3.webp" alt="image">
+                    <h5 class="text-[18px] md:text-[25px] font-bold mt-[20px] md:mt-[20px] md:leading-[35px]">Advertise on <br> Paytm</h5>
+                    <p class="text-[14px] md:text-[20px] font-semibold  mt-[10px] md:mt-[20px]">Grow your business by <br> advertising on India’s <br> largest mobile business</p>
+                    <a class="font-bold relative top-[10px] md:top-[20px]" href="#">Learn More</a>
+                </div>
+                <div class=" ml-[50px] md:ml-[1px] mt-[10px] md:mt-[1px]">
+                    <img class="h-[150px] md:h-[250px]" draggable="false" src="./css/photos/container14-4.webp" alt="image">
+                    <h5 class="text-[18px] md:text-[25px] font-bold mt-[20px] md:mt-[20px] md:leading-[35px]">Business <br> Khata</h5>
+                    <p class="text-[14px] md:text-[20px] font-semibold  mt-[10px] md:mt-[20px]">Managing Khata made <br> easy</p>
+                    <a class="font-bold relative top-[10px] md:top-[20px]" href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <!-- container15 -->
+        <div class="bg-[#F0FBFF] h-[1700px] md:h-[500px] ">
+            <div class="flex-row md:flex container mx-auto w-[80%] bg-[#ffffff] rounded-xl h-[1500px] md:h-[330px] relative top-[130px] p-[40px] gap-x-[40px] ">
+                <div class="">
+                    <img class="w-[110px] md:w-[150px]" draggable="false" src="./css/photos/15.webp" alt="image">
+                    <p class="mt-[30px] text-[18px] font-semibold">Get started on wealth <br> creation journey with Zero <br> brokerage fee & no hidden <br> charges.</p>
+                    <a class="text-[#66D6FF] font-semibold relative top-[10px]" href="#">Learn More</a>
+                </div>
+                <ul class="flex-row md:flex gap-x-[30px] ">
+                    <li class="bg-[#66D6FF] h-[220px] w-[140px] p-[6px] rounded-xl mt-[20px] md:mt-[1px]">
+                        <img class="h-[145px]" draggable="false" src="./css/photos/15-1.webp" alt="image">
+                        <p class="text-white font-bold text-center mt-[8px]">Invest in <br>Stocks</p>
+                    </li>
+                    <li class="bg-[#66D6FF] h-[220px] w-[140px] p-[6px] rounded-xl mt-[20px] md:mt-[1px]">
+                        <img class="h-[145px]" draggable="false" src="./css/photos/15-2.webp" alt="image">
+                        <p class="text-white font-bold text-center mt-[8px]">Apply for ipo</p>
+                    </li>
+                    <li class="bg-[#66D6FF] h-[220px] w-[140px] p-[6px] rounded-xl mt-[20px] md:mt-[1px]">
+                        <img class="h-[145px]" draggable="false" src="./css/photos/15-3.webp" alt="image">
+                        <p class="text-white font-bold text-center mt-[8px]">Invest in <br>ETFs</p>
+                    </li>
+                    <li class="bg-[#66D6FF] h-[220px] w-[140px] p-[6px] rounded-xl mt-[20px] md:mt-[1px]">
+                        <img class="h-[145px]" draggable="false" src="./css/photos/15-4.webp" alt="image">
+                        <p class="text-white font-bold text-center mt-[8px]">Buy Gold</p>
+                    </li>
+                    <li class="bg-[#66D6FF] h-[220px] w-[140px] p-[6px] rounded-xl mt-[20px] md:mt-[1px]">
+                        <img class="h-[145px]" draggable="false" src="./css/photos/15-5.webp" alt="image">
+                        <p class="text-white font-bold text-center mt-[8px]">Invest in <br>Mutual Funds</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+         <!-- container16 -->
+        <div class="bg-[#F0FBFF] h-[1600px] md:h-[500px]">
+            <div class="flex-row md:flex container mx-auto w-[80%] bg-[#ffffff] rounded-xl h-[1500px] md:h-[330px] relative top-[10px] p-[40px] gap-x-[40px]">
+                <div>
+                    <img class="w-[110px] md:w-[150px]" draggable="false" src="./css/photos/16.webp" alt="image">
+                    <p class="mt-[30px] text-[18px] font-semibold">Best travel solutions with <br> quick ticket bookings, <br> great  offers and easy refunds</p>
+                    <a class="text-[#66D6FF] font-semibold relative top-[10px]" href="#">Learn More</a>
+                </div>
+                <ul class="flex-row md:flex gap-x-[30px]  ">
+                    <li class="bg-[#66D6FF] h-[220px] w-[140px] p-[6px] rounded-xl mt-[20px] md:mt-[1px]">
+                        <img class="w-[65px] mt-[15px]" src="./css/photos/16-1.webp" alt="image">
+                        <h6 class="text-white font-bold  mt-[12px]">Flat 14% <br>Cashback <br></h6>
+                        <p class="text-white font-semibold text-[12px]  mt-[12px]">With Code <br>WELCOMEFLIGHT</p>
+                    </li>
+                    <li class="bg-[#66D6FF] h-[220px] w-[140px] p-[6px] rounded-xl mt-[20px] md:mt-[1px]">
+                        <img class="w-[65px] mt-[15px]" src="./css/photos/16-2.webp" alt="image">
+                        <h6 class="text-white font-bold  mt-[12px]">100% Refund</h6>
+                        <p class="text-white font-semibold text-[12px]  mt-[12px]">With Paytm's <br>Cancellation protect</p>
+                    </li>
+                    <li class="bg-[#66D6FF] h-[220px] w-[140px] p-[6px] rounded-xl mt-[20px] md:mt-[1px]">
+                        <img class="w-[65px] mt-[15px]" src="./css/photos/16-3.webp" alt="image">
+                        <h6 class="text-white font-bold  mt-[12px]">Flat 10% <br>Cashback</h6>
+                        <p class="text-white font-semibold text-[12px]  mt-[12px]">With Code<br>HAPPYBUS</p>
+                    </li>
+                    <li class="bg-[#66D6FF] h-[220px] w-[140px] p-[6px] rounded-xl mt-[20px] md:mt-[1px]">
+                        <img class="w-[65px] mt-[15px]" src="./css/photos/16-4.webp" alt="image">
+                        <h6 class="text-white font-bold  mt-[12px]">Satitised Bus <br>Options With <br>TravelSafe+</h6>
+                    </li>
+                    <li class="bg-[#66D6FF] h-[220px] w-[140px] p-[6px] rounded-xl mt-[20px] md:mt-[1px]">
+                        <img class="w-[65px] mt-[15px]" src="./css/photos/16-5.webp" alt="image">
+                        <h6 class="text-white font-bold  mt-[12px]">Hassle Free <br>Train Ticket <br>Booking</h6>
+                    </li>
+                    <!-- <li class="bg-[#66D6FF] h-[220px] w-[130px] p-[6px] rounded-xl">
+                        <img class="w-[65px] mt-[15px]" src="./css/photos/16-6.webp" alt="image">
+                        <h6 class="text-white font-bold  mt-[12px]">PNR Status <br>Check In Few <br>Simple Clicks</h6>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        <!-- downlinks -->
+        <div class="flex justify-between h-[300px] md:h-[150px]" >
+            <div class="flex-row md:flex gap-x-[20px] md:ml-[120px] mt-[20px]">
+                <p class="font-semibold">Download Paytm App <br> to Pay from anywhere</p>
+                <a href="#"><img class="w-[100px] md:w-[150px] mt-[5px]" src="./css/photos/google playstore.svg" alt="image"></a>
+                <a href="#"><img class="w-[100px] md:w-[150px] mt-[5px]" src="./css/photos/apple store.svg" alt="image"></a>
+            </div>
+            <div class="flex gap-x-[20px] mr-[20px] md:mr-[120px] mt-[-100px] md:mt-[-40px]">
+                <img class="w-[20px]" src="./css/photos/twitter.svg" alt="image">
+                <img class="w-[20px]" src="./css/photos/insta.svg" alt="image">
+                <img class="w-[10px]" src="./css/photos/face book.svg" alt="image">
+            </div>
+        </div>
+        <div class="bg-[#00BAF2] h-[10px]"> </div>
+        <div class="bg-[#002970] h-[10px]"> </div>
+    </section>
+</body>
+</html>
